@@ -1,0 +1,407 @@
+<!-- exercise 1 Página simple
+Objetivo:
+Crear una página web básica para familiarizarte con la estructura mínima de un documento HTML.
+
+Instrucciones:
+
+Crea un archivo HTML con la declaración <!DOCTYPE html> al inicio.
+Incluye la etiqueta <html> con el atributo lang="es" para especificar el idioma del contenido.
+Dentro de <head>, añade un título <title> con el texto "Mi primera página".
+En la sección <body>, agrega un párrafo <p> con el texto "Esta es mi primera página web".
+Consejos:
+
+Asegúrate de que todos los elementos estén correctamente cerrados para evitar errores.
+Este ejercicio te ayudará a entender la estructura básica de una página web. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página</title>
+</head>
+<body>
+
+    <p>holaaaa mundooooo cruel jajajaja</p>
+
+</body>
+</html>
+
+<!-- exercise 2  Párrafos y líneas
+Objetivo:
+Aprender a utilizar títulos y párrafos en HTML, además de dividir el contenido 
+en líneas dentro de un párrafo.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Página Web: párrafos y líneas".
+En la sección <body>, incluye un título principal <h1> con el texto "Mi primera página Web".
+A continuación, agrega un párrafo <p> con el siguiente contenido:
+La primera línea debe ser "Mi primera página web con algo más de texto."
+La segunda línea debe ser "Este párrafo está formado por dos líneas."
+Utiliza un salto de línea <br> entre las dos líneas dentro del párrafo si lo consideras necesario.
+Consejos:
+
+Recuerda que los párrafos <p> agregan automáticamente espacio entre ellos, 
+    pero puedes usar <br> para forzar saltos de línea específicos.--> 
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web: párrafos y líneas</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Mi primera página Web</h1>
+
+    <!-- Párrafo con salto de línea -->
+    <p>
+        Mi primera página web con algo más de texto. <br>
+        Este párrafo está formado por dos líneas.
+    </p>
+
+</body>
+</html>
+
+    <!-- exercise 3  Atributos
+Objetivo:
+Aprender a destacar texto utilizando etiquetas de formato como negritas.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Destacar texto con negritas".
+En la sección <body>, incluye un título principal <h1> con el texto "Texto en negrita".
+Añade un párrafo <p> con el siguiente contenido:
+La palabra "Sevilla" debe estar en negrita (<b> o <strong>).
+El resto del texto será normal: "es la capital de la Andalucía. Está atravesada por el 
+río Guadalquivir y es famosa por la fería de Abril entre otros atractivos."
+Consejos:
+
+Usa <strong> para dar énfasis semántico (recomendado en HTML5) o <b> si solo buscas 
+    formato visual. -->
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destacar texto con negritas</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Texto en negrita</h1>
+
+    <!-- Párrafo con palabra en negrita -->
+    <p>
+        <strong>Sevilla</strong> es la capital de Andalucía. Está atravesada por el río
+        Guadalquivir y es <br> famosa por la Feria de Abril, entre otros atractivos.
+    </p>
+
+</body>
+</html>
+
+<!-- exercise 4 - Enfatizados
+Objetivo:
+Diferenciar entre formato visual (itálica) y significado semántico (enfatizado).
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Enfatizar texto".
+En la sección <body>, incluye un título principal <h1> con el texto "Enfatizados y cursivas".
+Agrega dos párrafos <p> con el siguiente contenido:
+Primer párrafo: "Enfatizar un texto visualmente es ponerlo en cursiva o itálica, es decir que la fuente aparece algo inclinada." (usa <i> para cursiva).
+Segundo párrafo: "Visualmente es lo mismo itálica que enfatizado, pero HTML 5 sólo da significado semántico al enfatizado." (usa <em> para enfatizado).
+Consejos:
+
+<i> se utiliza para efectos visuales, mientras que <em> indica importancia o énfasis. -->
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enfatizar texto</title>
+    </head>
+    <body>
+    
+        <!-- Título principal -->
+        <h1>Enfatizados y cursivas</h1>
+    
+        <!-- Párrafo con cursiva (formato visual) -->
+        <p>
+            <i>Enfatizar un texto visualmente es ponerlo en cursiva o itálica, es decir que la fuente aparece algo inclinada.</i>
+        </p>
+    
+        <!-- Párrafo con énfasis semántico -->
+        <p>
+            <em>Visualmente es lo mismo itálica que enfatizado, pero HTML5 sólo da significado semántico al enfatizado.</em>
+        </p>
+    
+    </body>
+    </html>
+    
+
+    <!-- exercise 5  Los enlaces
+Objetivo:
+Aprender a crear enlaces a otras páginas.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Mis primeros enlaces".
+En la sección <body>, incluye un título principal <h1> con el texto "Enlaces a secciones".
+Agrega tres párrafos <p> con enlaces <a> que apunten a las siguientes URLs:
+URL: /tutorhtml5/07b-etiquetas-formato.htm, Texto: "Etiquetas de formato".
+URL: /tutorhtml5/04-head.htm, Texto: "Sección head".
+URL: /tutorhtml5/05-body-html5.htm, Texto: "Sección Body".
+Verifica que los enlaces funcionen correctamente.
+Consejos:
+
+Si trabajas localmente, asegúrate de que las URLs sean accesibles desde tu entorno. -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis primeros enlaces</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Enlaces a secciones</h1>
+
+    <!-- Enlaces a distintas secciones -->
+    <p><a href="/tutorhtml5/07b-etiquetas-formato.htm">Etiquetas de formato</a></p>
+    <p><a href="/tutorhtml5/04-head.htm">Sección head</a></p>
+    <p><a href="/tutorhtml5/05-body-html5.htm">Sección Body</a></p>
+
+</body>
+</html>
+
+
+     <!-- exercise 6 - Las listas
+Objetivo:
+Crear una lista sin ordenar para organizar información.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Listas sin ordenar".
+En la sección <body>, incluye un título principal <h1> con el texto "Series de Televisión".
+Añade un subtítulo <h3> con el texto "Plataforma ICP".
+Crea una lista no ordenada <ul> con los siguientes elementos <li>:
+Juego de sillas
+Los barítonos
+La casa de plástico
+Expediente Z
+Consejos:
+
+Las listas no ordenadas son útiles para mostrar elementos que no requieren un orden específico.-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis primeros enlaces</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Enlaces a secciones</h1>
+
+    <!-- Enlaces a distintas secciones -->
+    <p><a href="/tutorhtml5/07b-etiquetas-formato.htm">Etiquetas de formato</a></p>
+    <p><a href="/tutorhtml5/04-head.htm">Sección head</a></p>
+    <p><a href="/tutorhtml5/05-body-html5.htm">Sección Body</a></p>
+
+</body>
+</html>
+
+
+      <!-- exercise 7 Lista ordenada
+Objetivo:
+Crear una lista ordenada para mostrar un ranking o secuencia.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Listas Ordenadas".
+En la sección <body>, incluye un título principal <h1> con el texto "Orden de salida".
+Crea una lista ordenada <ol> con los siguientes elementos <li>:
+María, dorsal 102
+Luisa, dorsal 104
+Ana, dorsal 169
+Carmen, dorsal 308
+Consejos:
+
+Las listas ordenadas son ideales para mostrar información en un orden específico.-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Ordenadas</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Orden de salida</h1>
+
+    <!-- Lista ordenada -->
+    <ol>
+        <li>María, dorsal 102</li>
+        <li>Luisa, dorsal 104</li>
+        <li>Ana, dorsal 169</li>
+        <li>Carmen, dorsal 308</li>
+    </ol>
+
+</body>
+</html>
+
+
+       <!-- exercise 8  Mi primera página con imágenes
+Objetivo:
+Aprender a insertar imágenes en una página web.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Pon una imagen en tu web".
+En la sección <body>, incluye un título principal <h1> con el texto "Mi primera imagen web".
+Añade un párrafo <p> con una imagen <img> que apunte a la ruta correcta de la imagen en tu servidor local:
+Ruta: imgs/arboles.png
+Atributo alt: "Árboles verdes"
+Consejos:
+
+Si la imagen no se muestra, verifica que la ruta sea correcta y que la imagen esté en la carpeta indicada. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>una imagen vale mas que mil palabras</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>imagee</h1>
+
+    <!-- Párrafo con la imagen -->
+    <p>
+        <img src="imagenes/arboles.png" alt="Árboles verdes"width="300">
+    </p>
+
+</body>
+</html>
+
+
+
+        <!-- exercise 9  Imagen con enlace
+Objetivo:
+Aprender a combinar imágenes y enlaces.
+
+Instrucciones:
+
+Crea un archivo HTML con título <title> "Una imagen para un link".
+En la sección <body>, incluye un título principal <h1> con el texto "Links e imágenes".
+Añade un párrafo <p> con un enlace <a> que contenga una imagen <img>:
+Ruta de la imagen: imgs/flecha-link.png
+URL del enlace: La página actual de ejercicios.
+Consejos:
+
+Las imágenes pueden usarse como enlaces clicables para mejorar la interactividad.-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una imagen para un link</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Links e imágenes</h1>
+
+    <!-- Párrafo con un enlace que contiene una imagen -->
+    <p>
+        <a href="index.html">
+            <img src="https://eismaUsing-HTML-Step-1-Version-2.jpg" alt="pinchar para ver la imagen" width="100">
+        </a>
+    </p>
+
+</body>
+</html>
+
+
+         <!-- exercise 10 -->
+
+
+         <!DOCTYPE html>
+         <html lang="es">
+         <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Precios de alojamiento</title>
+         </head>
+         <body>
+         
+             <!-- Título principal -->
+             <h1>Nuestros planes</h1>
+         
+             <!-- Subtítulo -->
+             <h3>Lista de precios</h3>
+         
+             <!-- Tabla de precios -->
+             <table border="1">
+                 <thead>
+                     <tr>
+                         <th>Nombre</th>
+                         <th>Capacidad</th>
+                         <th>Precio</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>Básico</td>
+                         <td>1000 Mb</td>
+                         <td>50€</td>
+                     </tr>
+                     <tr>
+                         <td>Personal</td>
+                         <td>2000 Mb</td>
+                         <td>75€</td>
+                     </tr>
+                     <tr>
+                         <td>Comercial</td>
+                         <td>6000 Mb</td>
+                         <td>250€</td>
+                     </tr>
+                 </tbody>
+             </table>
+         
+         </body>
+         </html>
+         
+
+
+          <!-- exercise 11 -->
+ <!-- exercise 12 -->
+
+          <!-- exercise 13 --> 
+           <!-- exercise 14 -->
+
+          <!-- exercise 15 --> 
+           <!-- exercise 16 -->
+
+          <!-- exercise 17 --> 
+           <!-- exercise 18 -->
+
+          <!-- exercise 19 -->
+          
